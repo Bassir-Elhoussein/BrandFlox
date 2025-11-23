@@ -1,0 +1,18 @@
+[00:00:02.920] Server  LOG      ✓ Ready in 1999ms
+[00:00:05.974] Server  LOG      ○ Compiling / ...
+[00:00:09.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.131] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.131] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:10.131] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763911585553}
+[00:01:12.964] Server  LOG     [BrandFlox] Received contact form submission
+[00:01:12.967] Server  LOG     [BrandFlox] Attempting to send owner email to: "bassirelhoussein@gmail.com"
+[00:01:14.761] Server  LOG     [BrandFlox] Owner email sent successfully
+[00:01:14.761] Server  LOG     [BrandFlox] Attempting to send confirmation email to: "unfazed7eera9eya@gmail.com"
+[00:01:16.584] Server  LOG     [BrandFlox] Confirmation email sent successfully
+[00:10:23.956] Server  LOG      ✓ Compiled in 105ms
+[00:10:41.403] Server  LOG      ✓ Compiled in 102ms
+[00:10:45.157] Server  LOG      ✓ Compiled in 87ms
+[00:10:46.425] Server  LOG      ✓ Compiled in 79ms
+[00:10:50.513] Server  LOG      ✓ Compiled in 72ms
+[00:10:52.997] Server  LOG      ✓ Compiled in 73ms
+[00:11:15.989] Server  LOG      ✓ Compiled in 75ms

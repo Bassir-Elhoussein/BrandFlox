@@ -1,10 +1,6 @@
 import nodemailer from "nodemailer"
 import { type NextRequest, NextResponse } from "next/server"
-import path from "path";
-import fs from "fs";
 
-const logoPath = path.join(process.cwd(), "public", "images", "whitelogo.png");
-const logo = fs.readFileSync(logoPath);
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
@@ -323,8 +319,8 @@ export async function POST(request: NextRequest) {
   html: getOwnerEmailTemplate({ name, email, phone, company, message }, language),
   attachments: [
     {
-      filename: logo,
-      path: "./public/images/whitelogo.png", // relative path to your project
+      filename: "whitelogo.png",
+      path: "https://brandflox.vercel.app/images/whitelogo.png", // relative path to your project
       cid: "logo" // matches the <img src="cid:logo">
     }
   ]
@@ -341,8 +337,8 @@ await transporter.sendMail({
   html: getClientEmailTemplate(language),
   attachments: [
     {
-      filename: logo,
-      path: "./public/images/whitelogo.png",
+      filename: "whitelogo.png",
+      path: "https://brandflox.vercel.app/images/whitelogo.png",
       cid: "logo"
     }
   ]
